@@ -4,7 +4,7 @@ services:
 
   backend:
     build:
-      context: ../backend-TheCatAPI    
+      context: ../Backend-TheCatAPI    
       dockerfile: ../infrastructure-TheCatAPI/docker/backend.Dockerfile
     container_name: cat-api-backend
     ports:
@@ -19,7 +19,7 @@ services:
 
   frontend:
     build:
-      context: ../frontend-TheCathAPI
+      context: ../Frontend-TheCatAPI
       dockerfile: ../infrastructure-TheCatAPI/docker/frontend.Dockerfile
     container_name: cat-api-frontend
     ports:
